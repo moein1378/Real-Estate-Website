@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/static_events.js"></script>
+
+<link rel="stylesheet" href="css/contact page.css">
+<link rel="stylesheet" href="packages/icofont/icofont.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="packages/normalize.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>contact page</title>
+</head>
+
+<body>
+    <!--pre loader-->
+    <div id="pre_loader" class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="lds-ripple">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--pre loader end-->
+    <!--back to top button-->
+    <a id="back_to_top_button" href="#"><i class="icofont-scroll-long-up"></i></a>
+    <!--back to top button end-->
+    <!--first nav-->
+    <div id="first_nav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 communicate">
+                    <p><i class="icofont icofont-email"></i>+1 202 110 1122</p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 communicate">
+                    <p><i class="icofont icofont-email"></i>info@yourmail.com</p>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 contact">
+                    <ul>
+                        <li><i class="icofont icofont-sign-in"></i>
+                            <p>sign in</p>
+                        </li>
+                        <li><i class="icofont icofont-pencil-alt-2"></i>
+                            <p>sign up</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 follow">
+                    <ul>
+                        <div class="icons">
+                            <li><i class="icofont-facebook"></i></li>
+                            <div class="line"></div>
+                        </div>
+                        <div class="icons">
+                            <li><i class="icofont-twitter"></i></li>
+                            <div class="line"></div>
+                        </div>
+                        <div class="icons">
+                            <li><i class="icofont-linkedin"></i></li>
+                            <div class="line"></div>
+                        </div>
+                        <div class="icons">
+                            <li><i class="icofont-dribbble"></i></li>
+                            <div class="line"></div>
+                        </div>
+                        <div class="icons">
+                            <li><i class="icofont-google-plus"></i></li>
+                            <div class="line"></div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--first nav end-->
+
+    <!--sticky nav bar-->
+    <div id="sticky_nav" class="container-fluid">
+        <div class="row">
+            <div id="logo_section" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 ">
+                <img src="img/logo.png">
+            </div>
+            <div id="menue_section" class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
+                <ul class="menue">
+                    <li id="home_section">
+                        <a id="title_home" class="menue_title" href="#">home <i class="icofont-caret-down"></i></a>
+                        <ul id="sub_home" class="sub_titles">
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">home one</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">home two</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">home three</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">home four</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="about_section">
+                        <a href="#" class="menue_title">about</a>
+                    </li>
+                    <li id="properties_section">
+                        <a id="title_properties" class="menue_title" href="#">properties <i class="icofont-caret-down"></i></a>
+                        <ul id="sub_properties" class="sub_titles">
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">properties 3 columns</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">properties 4 columns</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">properties right sidebar</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">properties left sidebar</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">properties details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="agents_section">
+                        <a id="title_agents" class="menue_title" href="#">agents <i class="icofont-caret-down"></i></a>
+                        <ul id="sub_agents" class="sub_titles">
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">our agents</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">agents details</a>
+                            </li>
+                            <hr>
+                        </ul>
+                    </li>
+                    <li id="blog_section">
+                        <a id="title_blog" class="menue_title" href="#">blog <i class="icofont-caret-down"></i></a>
+                        <ul id="sub_blog" class="sub_titles">
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">blog grid</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">properties 4 columns</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">blog right sidebar</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">blog left sidebar</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">blog details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="pages_section">
+                        <a id="title_pages" class="menue_title" href="#">pages <i class="icofont-caret-down"></i></a>
+                        <ul id="sub_pages" class="sub_titles">
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">testimonials</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">services</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">my account</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">faq's page</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">error page</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="contact_section">
+                        <a href="#" class="menue_title">contact</a>
+                    </li>
+                </ul>
+                <div class="rsp_menu_icon">
+                    <i class="icofont-navigation-menu"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--sticky nav bar end-->
+    <!--responsive sticky nav bar-->
+    <div id="rsp_sticky_navbar">
+        <div class="rsp_menue_area">
+            <div class="close_area">
+                <p id="close_btn">close <i class="icofont-close-circled"></i></p>
+            </div>
+            <ul class="rsp_menue">
+                <li id="home_section">
+                    <a id="title_home" class="menue_title" href="#">home <i class="icofont-caret-down"></i></a>
+                    <hr>
+                    <ul id="sub_home" class="sub_titles">
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">home one</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">home two</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">home three</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">home four</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li id="about_section">
+                    <a href="#" class="menue_title">about</a>
+                    <hr>
+                </li>
+                <li id="properties_section">
+                    <a id="title_properties" class="menue_title" href="#">properties <i class="icofont-caret-down"></i></a>
+                    <hr>
+                    <ul id="sub_properties" class="sub_titles">
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">properties 3 columns</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">properties 4 columns</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">properties right sidebar</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">properties left sidebar</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">properties details</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li id="agents_section">
+                    <a id="title_agents" class="menue_title" href="#">agents <i class="icofont-caret-down"></i></a>
+                    <hr>
+                    <ul id="sub_agents" class="sub_titles">
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">our agents</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">agents details</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li id="blog_section">
+                    <a id="title_blog" class="menue_title" href="#">blog <i class="icofont-caret-down"></i></a>
+                    <hr>
+                    <ul id="sub_blog" class="sub_titles">
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">blog grid</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">properties 4 columns</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">blog right sidebar</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">blog left sidebar</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">blog details</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li id="pages_section">
+                    <a id="title_pages" class="menue_title" href="#">pages <i class="icofont-caret-down"></i></a>
+                    <hr>
+                    <ul id="sub_pages" class="sub_titles">
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">testimonials</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">services</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">my account</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">faq's page</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">error page</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li id="contact_section">
+                    <a href="#" class="menue_title">contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--responsive sticky nav bar end-->
+    <!--header-->
+    <div id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 title_area">
+                    <div class="title_box">
+                        <h2>contact us</h2>
+                        <p>
+                            <a href="main page.html">home</a>
+                            <i class="icofont-rounded-double-right"></i>
+                            <a href="#">contact</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 transparent_img_area">
+                    <div class="transparent_img_box">
+                        <img class="img-fluid" src="img/contact header bg2.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header end-->
+    <!--contact form-->
+    <div id="contact_form">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 form_area">
+                    <form>
+                        <div class="input-group mb-3 input-group-sm">
+                            <input type="text" class="form-control" placeholder="your name">
+                        </div>
+                        <div class="input-group mb-3 input-group-sm">
+                            <input type="text" class="form-control" placeholder="email">
+                        </div>
+                        <div class="input-group mb-3 input-group-sm">
+                            <input type="text" class="form-control" placeholder="subject">
+                        </div>
+                        <div class="input-group mb-3 input-group-sm">
+                            <textarea class="form-control" cols="70" rows="10" placeholder="message"></textarea>
+                        </div>
+                        <button class="btn"><a href="#">sent message</a></button>
+                    </form>
+                </div>
+                <div class="col-xl-6 particular_area">
+                    <div class="particulars_section">
+                        <i class="icofont-envelope"></i>
+                        <p>mailaddress@gmail.com</p>
+                    </div>
+                    <div class="particulars_section">
+                        <i class="icofont-phone"></i>
+                        <p>+0123 (123) 6719900</p>
+                    </div>
+                    <div class="particulars_section">
+                        <i class="icofont-location-pin"></i>
+                        <p>99, Big Building, Glasgow, United Kingdom.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact form end-->
+    <!--Our Location On Google-Map -->
+
+    <div id="map-container-google-3" class="z-depth-1-half map-container-3">
+        <iframe src="https://maps.google.com/maps?q=Glasgow&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <!--Our Location On Google-Map end -->
+    <!--footer-->
+    <div id="footer" class="container-fluid">
+        <footer>
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 footer_option">
+                    <h2 class="title">home</h2>
+                    <ul class="sub_title">
+                        <a href="#">
+                            <li>about us</li>
+                        </a>
+                        <a href="#">
+                            <li>our work</li>
+                        </a>
+                        <a href="#">
+                            <li>our location</li>
+                        </a>
+                        <a href="#">
+                            <li>blog</li>
+                        </a>
+                        <a href="#">
+                            <li>our history</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-12 footer_option">
+                    <h2 class="title">services</h2>
+                    <ul class="sub_title">
+                        <a href="#">
+                            <li>advertise</li>
+                        </a>
+                        <a href="#">
+                            <li>recruitment</li>
+                        </a>
+                        <a href="#">
+                            <li>online consultation</li>
+                        </a>
+                        <a href="#">
+                            <li>buying and selling land</li>
+                        </a>
+                        <a href="#">
+                            <li>buying and selling commercial property</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-12 footer_option">
+                    <h2 class="title">Legal</h2>
+                    <ul class="sub_title">
+                        <a href="#">
+                            <li>privacy policy</li>
+                        </a>
+                        <a href="#">
+                            <li>terms & conditions</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-12 footer_option">
+                    <h2 class="title">Contact</h2>
+                    <ul class="sub_title">
+                        <a href="#">
+                            <li>info@yourmail.com</li>
+                        </a>
+                        <a href="#">
+                            <li>agent support</li>
+                        </a>
+                        <ul class="follow_icon">
+                            <div class="icons">
+                                <li><i class="icofont-facebook"></i></li>
+                                <div class="line"></div>
+                            </div>
+                            <div class="icons">
+                                <li><i class="icofont-twitter"></i></li>
+                                <div class="line"></div>
+                            </div>
+                            <div class="icons">
+                                <li><i class="icofont-linkedin"></i></li>
+                                <div class="line"></div>
+                            </div>
+                            <div class="icons">
+                                <li><i class="icofont-dribbble"></i></li>
+                                <div class="line"></div>
+                            </div>
+                            <div class="icons">
+                                <li><i class="icofont-google-plus"></i></li>
+                                <div class="line"></div>
+                            </div>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="warn">
+                <h5>all rights rserved hommy PTE LTD 2019-2020</h5>
+            </div>
+        </footer>
+    </div>
+    <!--footer end-->
+</body>
+
+</html>
+
+</html>

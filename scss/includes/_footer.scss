@@ -1,0 +1,93 @@
+@import "_functions.scss";
+//footer
+#footer {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.884), rgba(0, 0, 0, 0.884)), url(../img/bg-footer.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-y: bottom;
+    footer {
+        padding-top: 55px;
+        .footer_option {
+            text-align: -webkit-center;
+            text-align: -moz-center;
+            margin-top: 20px;
+            .title {
+                color: $darkgold;
+                font-family: raleway;
+                text-transform: uppercase;
+                margin: 0;
+                margin-bottom: 15px !important;
+            }
+            .sub_title {
+                line-height: 30px;
+                a {
+                    display: table;
+                    font-weight: 300;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    color: white;
+                    transition: all 0.5s;
+                    &:hover {
+                        color: $darkgold;
+                        letter-spacing: 0.25px;
+                    }
+                }
+                .follow_icon {
+                    .icons {
+                        display: inline-block;
+                        &:nth-child(1) {
+                            li {
+                                i {
+                                    margin-left: 0 !important;
+                                }
+                            }
+                        }
+                        &:hover {
+                            .line {
+                                background-color: $darkgold;
+                                width: 15px;
+                            }
+                            li {
+                                i {
+                                    color: $darkgold;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                        .line {
+                            display: inline-block;
+                            width: 10px;
+                            height: 4px;
+                            border-radius: 15px;
+                            background-color: $white;
+                            transition: all 0.25s;
+                        }
+                        li {
+                            display: inline-block;
+                            margin: 10px 0 10px 0;
+                            i {
+                                margin-left: 5px;
+                                color: $white;
+                                font-size: 18px;
+                                transition: all 0.25s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .warn {
+            text-align: center;
+            h5 {
+                color: $darkgold;
+                font-family: raleway;
+                text-transform: uppercase;
+                margin: 0;
+                padding-bottom: 5px;
+            }
+        }
+    }
+}
+
+//footer end

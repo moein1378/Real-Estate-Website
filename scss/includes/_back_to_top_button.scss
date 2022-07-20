@@ -1,0 +1,24 @@
+@import "_functions.scss";
+//back to top button
+#back_to_top_button {
+    right: 30px !important;
+    width: fit-content;
+    height: fit-content;
+    display: inline;
+    z-index: 999999;
+    position: fixed;
+    bottom: 30px;
+    cursor: pointer;
+    color: $white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    background-color: $darkgold;
+    border-radius: 3px;
+    display: none;
+    i {
+        font-size: 35px;
+    }
+}
+
+//back to top button end

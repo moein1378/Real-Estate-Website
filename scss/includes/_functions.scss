@@ -1,0 +1,86 @@
+//functions & classes
+@font-face {
+    font-family: raleway;
+    src: url("../fonts/Raleway-SemiBold.ttf");
+}
+
+$lightblack: rgb(103,
+103,
+103);
+$darkblack:rgb(17,
+17,
+17);
+$darkgold:rgb(204,
+147,
+92);
+$white :rgb(255,
+255,
+255);
+@mixin btn_style($width,
+$text_transform,
+$font_size) {
+    width: $width;
+    color: $white;
+    background-color: $darkgold;
+    background-size: 300% 100%;
+    text-transform: $text_transform;
+    font-size: $font_size;
+    border-radius: 2px;
+    transition: all 0.2s ease-out;
+    &:hover {
+        background-position: 100% 0;
+        transition: all .5s ease-out;
+        background-image: linear-gradient(to right, $darkgold, #b8b8b8d3, $darkgold, #b8b8b8d3);
+    }
+}
+
+@keyframes lds-ripple {
+    0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 80px;
+        height: 80px;
+        opacity: 0;
+    }
+}
+
+.bold {
+    color: $darkgold;
+}
+
+.header {
+    padding-left: 70px;
+    h2 {
+        font-size: 46px;
+        text-transform: uppercase;
+        font-family: raleway;
+        margin-bottom: 0;
+        color: $darkblack;
+    }
+    .line1 {
+        background-color: $darkgold;
+        width: 100px;
+        height: 1px;
+    }
+    .line2 {
+        background-color: $darkgold;
+        width: 50px;
+        height: 5px;
+        margin-top: -3px;
+        z-index: 2;
+    }
+    p {
+        width: 700px;
+        color: $lightblack;
+        font-size: 14px;
+    }
+}
+
+//functions & classes end

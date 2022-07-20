@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="packages/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+<script src="js/home2_page.js"></script>
+<script src="js/static_events.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/home2 page.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="packages/normalize.css">
+<link rel="stylesheet" href="packages/swiper-bundle.min.css">
+<link rel="stylesheet" href="packages/icofont/icofont.min.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>home2 page</title>
+</head>
+
+<body>
+    <!--pre loader-->
+    <div id="pre_loader" class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="lds-ripple">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--pre loader end-->
+    <!--back to top button-->
+    <a id="back_to_top_button" href="#"><i class="icofont-scroll-long-up"></i></a>
+    <!--back to top button end-->
+    <!--first nav-->
+    <div id="first_nav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 communicate">
+                    <p><i class="icofont icofont-email"></i>+1 202 110 1122</p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 communicate">
+                    <p><i class="icofont icofont-email"></i>info@yourmail.com</p>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6 contact">
+                    <ul>
+                        <li><i class="icofont icofont-sign-in"></i>
+                            <p>sign in</p>
+                        </li>
+                        <li><i class="icofont icofont-pencil-alt-2"></i>
+                            <p>sign up</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 follow">
+                    <ul>
+                        <div class="icons">
+                            <li><i class="icofont-facebook"></i></li>
+                            <div class="line"></div>
+                        </div>
+                        <div class="icons">
+                            <li><i class="icofont-twitter"></i></li>
+                            <div class="line"></div>
+                        </div>
+                        <div class="icons">
+                            <li><i class="icofont-linkedin"></i></li>
+                            <div class="line"></div>
+                        </div>
+                        <div class="icons">
+                            <li><i class="icofont-dribbble"></i></li>
+                            <div class="line"></div>
+                        </div>
+                        <div class="icons">
+                            <li><i class="icofont-google-plus"></i></li>
+                            <div class="line"></div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--first nav end-->
+
+    <!--sticky nav bar-->
+    <div id="sticky_nav" class="container-fluid">
+        <div class="row">
+            <div id="logo_section" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                <img src="img/logo.png">
+            </div>
+            <div id="menue_section" class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
+                <ul class="menue">
+                    <li id="home_section">
+                        <a id="title_home" class="menue_title" href="#">home <i class="icofont-caret-down"></i></a>
+                        <ul id="sub_home" class="sub_titles">
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">home one</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">home two</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">home three</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">home four</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="about_section">
+                        <a href="#" class="menue_title">about</a>
+                    </li>
+                    <li id="properties_section">
+                        <a id="title_properties" class="menue_title" href="#">properties <i class="icofont-caret-down"></i></a>
+                        <ul id="sub_properties" class="sub_titles">
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">properties 3 columns</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">properties 4 columns</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">properties right sidebar</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">properties left sidebar</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">properties details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="agents_section">
+                        <a id="title_agents" class="menue_title" href="#">agents <i class="icofont-caret-down"></i></a>
+                        <ul id="sub_agents" class="sub_titles">
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">our agents</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">agents details</a>
+                            </li>
+                            <hr>
+                        </ul>
+                    </li>
+                    <li id="blog_section">
+                        <a id="title_blog" class="menue_title" href="#">blog <i class="icofont-caret-down"></i></a>
+                        <ul id="sub_blog" class="sub_titles">
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">blog grid</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">properties 4 columns</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">blog right sidebar</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">blog left sidebar</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">blog details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="pages_section">
+                        <a id="title_pages" class="menue_title" href="#">pages <i class="icofont-caret-down"></i></a>
+                        <ul id="sub_pages" class="sub_titles">
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">testimonials</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">services</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">my account</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">faq's page</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="line"></div>
+                                <a href="#">error page</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="contact_section">
+                        <a href="#" class="menue_title">contact</a>
+                    </li>
+                </ul>
+                <div class="rsp_menu_icon">
+                    <i class="icofont-navigation-menu"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--sticky nav bar end-->
+    <!--responsive sticky nav bar-->
+    <div id="rsp_sticky_navbar">
+        <div class="rsp_menue_area">
+            <div class="close_area">
+                <p id="close_btn">close <i class="icofont-close-circled"></i></p>
+            </div>
+            <ul class="rsp_menue">
+                <li id="home_section">
+                    <a id="title_home" class="menue_title" href="#">home <i class="icofont-caret-down"></i></a>
+                    <hr>
+                    <ul id="sub_home" class="sub_titles">
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">home one</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">home two</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">home three</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">home four</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li id="about_section">
+                    <a href="#" class="menue_title">about</a>
+                    <hr>
+                </li>
+                <li id="properties_section">
+                    <a id="title_properties" class="menue_title" href="#">properties <i class="icofont-caret-down"></i></a>
+                    <hr>
+                    <ul id="sub_properties" class="sub_titles">
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">properties 3 columns</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">properties 4 columns</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">properties right sidebar</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">properties left sidebar</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">properties details</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li id="agents_section">
+                    <a id="title_agents" class="menue_title" href="#">agents <i class="icofont-caret-down"></i></a>
+                    <hr>
+                    <ul id="sub_agents" class="sub_titles">
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">our agents</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">agents details</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li id="blog_section">
+                    <a id="title_blog" class="menue_title" href="#">blog <i class="icofont-caret-down"></i></a>
+                    <hr>
+                    <ul id="sub_blog" class="sub_titles">
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">blog grid</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">properties 4 columns</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">blog right sidebar</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">blog left sidebar</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">blog details</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li id="pages_section">
+                    <a id="title_pages" class="menue_title" href="#">pages <i class="icofont-caret-down"></i></a>
+                    <hr>
+                    <ul id="sub_pages" class="sub_titles">
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">testimonials</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">services</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">my account</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">faq's page</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="line"></div>
+                            <a href="#">error page</a>
+                        </li>
+                        <hr>
+                    </ul>
+                </li>
+                <li id="contact_section">
+                    <a href="#" class="menue_title">contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--responsive sticky nav bar end-->
+    <!--filters-->
+    <div id="filter" class="filter_ripple">
+        <div class="filter_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 fields-column">
+                        <select name="location" id="location_filter">
+                            <option value="0" selected>location <i class="icofont-caret-down"></i></option>
+                            <option value="1">alabama</option>
+                            <option value="2">alaska</option>
+                            <option value="3">california</option>
+                            <option value="4">colorado</option>
+                            <option value="5">delaware</option>
+                            <option value="5">district of columbia</option>
+                        </select>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 fields-column">
+                        <select name="location" id="location_filter">
+                            <option value="0" selected>property status <i class="icofont-caret-down"></i></option>
+                            <option value="1">for sell</option>
+                            <option value="2">for rent</option>
+                        </select>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 fields-column">
+                        <input class="form-control" type="text" placeholder="squre fit min">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 fields-column">
+                        <input class="form-control" type="text" placeholder="squre fit max">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 fields-column">
+                        <select name="location" id="location_filter">
+                            <option value="0" selected>bedroom <i class="icofont-caret-down"></i></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 fields-column">
+                        <select name="location" id="location_filter">
+                            <option value="0" selected>bathroom <i class="icofont-caret-down"></i></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 fields-range">
+                        <p class="price_range">
+                            <label>price from:</label>
+                            <input type="range" id="fromPrice" value="0" min="0" max="5000" oninput="document.getElementById('fPrice').innerHTML = this.value+'$'" />
+                            <span id="fPrice"></span>
+                        </p>
+                        <p class="price_range">
+                            <label>price to:</label>
+                            <input type="range" id="toPrice" value="0" min="0" max="5000" oninput="document.getElementById('tPrice').innerHTML = this.value+'$'" />
+                            <span id="tPrice"></span>
+                        </p>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 field-search-btn">
+                        <button class="btn">search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--filters end-->
+
+    <!--about hommy-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 left-cell">
+                    <img src="img/agent2.jpg">
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 right-cell">
+                    <div class="header">
+                        <div class="vertical_line"></div>
+                        <div class="header_content">
+                            <h2>few description<br><span class="bold">about hommy</span></h2>
+                            <span>real estate</span>
+                        </div>
+                    </div>
+                    <div class="passage">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use
+                            a passage of Lorem Ipsum.</p>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use
+                            a passage of Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 left-skew-passage-bg">
+                    <div class="left-skew-passage">
+                        <div class="passage">
+                            <span>book your</span>
+                            <h2>appartment or house</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 right-skew-passage-bg">
+                    <div class="right-skew-passage">
+                        <div class="passage">
+                            <h2>we are ready to receive your call</h2>
+                            <span>+0412 001 123</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--about hommy end-->
+
+    <!--property-->
+    <div id="cards_slider_box">
+        <div class="header">
+            <h2>awesome <span class="bold">property</span></h2>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum totam et dolores voluptatem porro tempore temporibus ducimus</p>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div id="card1" class="swiper-slide">
+                    <div class="layer">
+                        <div class="sale animate__animated">
+                            <h3>for sale</h3>
+                            <h3>$59,999</h3>
+                        </div>
+                        <div class="hover-layer animate__animated ">
+                            <button class="btn animate__animated ">view details</button>
+                            <ul class="address">
+                                <li>
+                                    <i class="icofont-ui-home"></i>
+                                    <h4 class="bold">NEW SUPERB VILLA</h4>
+                                </li>
+                                <li>
+                                    <i class="icofont-location-pin"></i>
+                                    <h4 class="bold">123 1st Width Road, , Summit, New York</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="particular">
+                            <ul>
+                                <li><i class="icofont-ruler-alt-1"></i> 520 sq ft</li>
+                                <li><i class="icofont-bed"></i>6</li>
+                                <li><i class="icofont-bathtub"></i>3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="card2" class="swiper-slide">
+                    <div class="layer">
+                        <div class="rent animate__animated">
+                            <h3>for rent</h3>
+                            <h3>$59,999</h3>
+                        </div>
+                        <div class="hover-layer animate__animated ">
+                            <button class="btn animate__animated ">view details</button>
+                            <ul class="address">
+                                <li>
+                                    <i class="icofont-ui-home"></i>
+                                    <h4 class="bold">NEW SUPERB VILLA</h4>
+                                </li>
+                                <li>
+                                    <i class="icofont-location-pin"></i>
+                                    <h4 class="bold">123 1st Width Road, , Summit, New York</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="particular">
+                            <ul>
+                                <li><i class="icofont-ruler-alt-1"></i> 520 sq ft</li>
+                                <li><i class="icofont-bed"></i>6</li>
+                                <li><i class="icofont-bathtub"></i>3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="card3" class="swiper-slide">
+                    <div class="layer">
+                        <div class="sale animate__animated">
+                            <h3>for sale</h3>
+                            <h3>$59,999</h3>
+                        </div>
+                        <div class="hover-layer animate__animated ">
+                            <button class="btn animate__animated ">view details</button>
+                            <ul class="address">
+                                <li>
+                                    <i class="icofont-ui-home"></i>
+                                    <h4 class="bold">NEW SUPERB VILLA</h4>
+                                </li>
+                                <li>
+                                    <i class="icofont-location-pin"></i>
+                                    <h4 class="bold">123 1st Width Road, , Summit, New York</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="particular">
+                            <ul>
+                                <li><i class="icofont-ruler-alt-1"></i> 520 sq ft</li>
+                                <li><i class="icofont-bed"></i>6</li>
+                                <li><i class="icofont-bathtub"></i>3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="card4" class="swiper-slide">
+                    <div class="layer">
+                        <div class="rent animate__animated">
+                            <h3>for rent</h3>
+                            <h3>$59,999</h3>
+                        </div>
+                        <div class="hover-layer animate__animated ">
+                            <button class="btn animate__animated ">view details</button>
+                            <ul class="address">
+                                <li>
+                                    <i class="icofont-ui-home"></i>
+                                    <h4 class="bold">NEW SUPERB VILLA</h4>
+                                </li>
+                                <li>
+                                    <i class="icofont-location-pin"></i>
+                                    <h4 class="bold">123 1st Width Road, , Summit, New York</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="particular">
+                            <ul>
+                                <li><i class="icofont-ruler-alt-1"></i> 520 sq ft</li>
+                                <li><i class="icofont-bed"></i>6</li>
+                                <li><i class="icofont-bathtub"></i>3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="card5" class="swiper-slide">
+                    <div class="layer">
+                        <div class="sale animate__animated">
+                            <h3>for sale</h3>
+                            <h3>$59,999</h3>
+                        </div>
+                        <div class="hover-layer animate__animated ">
+                            <button class="btn animate__animated ">view details</button>
+                            <ul class="address">
+                                <li>
+                                    <i class="icofont-ui-home"></i>
+                                    <h4 class="bold">NEW SUPERB VILLA</h4>
+                                </li>
+                                <li>
+                                    <i class="icofont-location-pin"></i>
+                                    <h4 class="bold">123 1st Width Road, , Summit, New York</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="particular">
+                            <ul>
+                                <li><i class="icofont-ruler-alt-1"></i> 520 sq ft</li>
+                                <li><i class="icofont-bed"></i>6</li>
+                                <li><i class="icofont-bathtub"></i>3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="card6" class="swiper-slide">
+                    <div class="layer">
+                        <div class="rent animate__animated">
+                            <h3>for rent</h3>
+                            <h3>$59,999</h3>
+                        </div>
+                        <div class="hover-layer animate__animated ">
+                            <button class="btn animate__animated ">view details</button>
+                            <ul class="address">
+                                <li>
+                                    <i class="icofont-ui-home"></i>
+                                    <h4 class="bold">NEW SUPERB VILLA</h4>
+                                </li>
+                                <li>
+                                    <i class="icofont-location-pin"></i>
+                                    <h4 class="bold">123 1st Width Road, , Summit, New York</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="particular">
+                            <ul>
+                                <li><i class="icofont-ruler-alt-1"></i> 520 sq ft</li>
+                                <li><i class="icofont-bed"></i>6</li>
+                                <li><i class="icofont-bathtub"></i>3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="card7" class="swiper-slide">
+                    <div class="layer">
+                        <div class="sale animate__animated">
+                            <h3>for sale</h3>
+                            <h3>$59,999</h3>
+                        </div>
+                        <div class="hover-layer animate__animated ">
+                            <button class="btn animate__animated ">view details</button>
+                            <ul class="address">
+                                <li>
+                                    <i class="icofont-ui-home"></i>
+                                    <h4 class="bold">NEW SUPERB VILLA</h4>
+                                </li>
+                                <li>
+                                    <i class="icofont-location-pin"></i>
+                                    <h4 class="bold">123 1st Width Road, , Summit, New York</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="particular">
+                            <ul>
+                                <li><i class="icofont-ruler-alt-1"></i> 520 sq ft</li>
+                                <li><i class="icofont-bed"></i>6</li>
+                                <li><i class="icofont-bathtub"></i>3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="card8" class="swiper-slide">
+                    <div class="layer">
+                        <div class="rent animate__animated">
+                            <h3>for rent</h3>
+                            <h3>$59,999</h3>
+                        </div>
+                        <div class="hover-layer animate__animated ">
+                            <button class="btn animate__animated ">view details</button>
+                            <ul class="address">
+                                <li>
+                                    <i class="icofont-ui-home"></i>
+                                    <h4 class="bold">NEW SUPERB VILLA</h4>
+                                </li>
+                                <li>
+                                    <i class="icofont-location-pin"></i>
+                                    <h4 class="bold">123 1st Width Road, , Summit, New York</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="particular">
+                            <ul>
+                                <li><i class="icofont-ruler-alt-1"></i> 520 sq ft</li>
+                                <li><i class="icofont-bed"></i>6</li>
+                                <li><i class="icofont-bathtub"></i>3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="card9" class="swiper-slide">
+                    <div class="layer">
+                        <div class="sale animate__animated">
+                            <h3>for sale</h3>
+                            <h3>$59,999</h3>
+                        </div>
+                        <div class="hover-layer animate__animated ">
+                            <button class="btn animate__animated ">view details</button>
+                            <ul class="address">
+                                <li>
+                                    <i class="icofont-ui-home"></i>
+                                    <h4 class="bold">NEW SUPERB VILLA</h4>
+                                </li>
+                                <li>
+                                    <i class="icofont-location-pin"></i>
+                                    <h4 class="bold">123 1st Width Road, , Summit, New York</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="particular">
+                            <ul>
+                                <li><i class="icofont-ruler-alt-1"></i> 520 sq ft</li>
+                                <li><i class="icofont-bed"></i>6</li>
+                                <li><i class="icofont-bathtub"></i>3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="card10" class="swiper-slide">
+                    <div class="layer">
+                        <div class="rent animate__animated">
+                            <h3>for rent</h3>
+                            <h3>$59,999</h3>
+                        </div>
+                        <div class="hover-layer animate__animated ">
+                            <button class="btn animate__animated ">view details</button>
+                            <ul class="address">
+                                <li>
+                                    <i class="icofont-ui-home"></i>
+                                    <h4 class="bold">NEW SUPERB VILLA</h4>
+                                </li>
+                                <li>
+                                    <i class="icofont-location-pin"></i>
+                                    <h4 class="bold">123 1st Width Road, , Summit, New York</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="particular">
+                            <ul>
+                                <li><i class="icofont-ruler-alt-1"></i> 520 sq ft</li>
+                                <li><i class="icofont-bed"></i>6</li>
+                                <li><i class="icofont-bathtub"></i>3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div class="more-btn">
+            <button class="btn">more properties</button>
+        </div>
+    </div>
+    <!--property-->
+
+    <!--agents-->
+    <div id="agents">
+        <div class="container">
+            <div class="header">
+                <h2>our valuable <span class="bold">agents</span></h2>
+                <div class="lines">
+                    <div class="line1">
+                        <div class="line2"></div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum totam et dolores voluptatem porro tempore temporibus ducimus</p>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <div class="team-area">
+                        <div class="team-photo">
+                            <a href="#">
+                                <img src="img/agents1.png">
+                            </a>
+                            <div class="team-footer">
+                                <ul class="social-list">
+                                    <li><i class="icofont-facebook"></i></li>
+                                    <li><i class="icofont-twitter"></i></li>
+                                    <li><i class="icofont-linkedin"></i></li>
+                                    <li><i class="icofont-vimeo"></i></li>
+                                </ul>
+                                <div class="team-details">
+                                    <h5><a href="agent-detail.html">martin smith</a></h5>
+                                    <h6>web developer</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <div class="team-area">
+                        <div class="team-photo">
+                            <a href="#">
+                                <img src="img/agents2.png">
+                            </a>
+                            <div class="team-footer">
+                                <ul class="social-list">
+                                    <li><i class="icofont-facebook"></i></li>
+                                    <li><i class="icofont-twitter"></i></li>
+                                    <li><i class="icofont-linkedin"></i></li>
+                                    <li><i class="icofont-vimeo"></i></li>
+                                </ul>
+                                <div class="team-details">
+                                    <h5><a href="agent-detail.html">michelle nelson</a></h5>
+                                    <h6>creative director</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <div class="team-area">
+                        <div class="team-photo">
+                            <a href="#">
+                                <img src="img/agents3.png">
+                            </a>
+                            <div class="team-footer">
+                                <ul class="social-list">
+                                    <li><i class="icofont-facebook"></i></li>
+                                    <li><i class="icofont-twitter"></i></li>
+                                    <li><i class="icofont-linkedin"></i></li>
+                                    <li><i class="icofont-vimeo"></i></li>
+                                </ul>
+                                <div class="team-details">
+                                    <h5><a href="agent-detail.html">david martin</a></h5>
+                                    <h6>founder</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <div class="team-area">
+                        <div class="team-photo">
+                            <a href="#">
+                                <img src="img/agents4.png">
+                            </a>
+                            <div class="team-footer">
+                                <ul class="social-list">
+                                    <li><i class="icofont-facebook"></i></li>
+                                    <li><i class="icofont-twitter"></i></li>
+                                    <li><i class="icofont-linkedin"></i></li>
+                                    <li><i class="icofont-vimeo"></i></li>
+                                </ul>
+                                <div class="team-details">
+                                    <h5><a href="agent-detail.html">jessica wevins</a></h5>
+                                    <h6>manager</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--agents end-->
+
+    <!--blog-->
+    <div id="blog">
+        <div class="container">
+            <div class="header">
+                <h2>our <span class="bold">blog</span></h2>
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum totam et dolores voluptatem porro tempore temporibus ducimus</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 blog_area">
+                    <div class="blog_area">
+                        <div class="img_line"></div>
+                        <div class="img-blog">
+                            <img src="img/blog1.jpg">
+                            <div class="post-author">
+                                <ul>
+                                    <li><i class="icofont-businessman"></i>mark jonson</li>
+                                    <li><i class="icofont-calendar"></i>june 28,2020</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="post-caption">
+                            <h3>latest design of house</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <div class="continue_reading">
+                                <a href="#">read more</a>
+                                <div class="read_line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 blog_area">
+                    <div class="blog_area">
+                        <div class="img_line"></div>
+                        <div class="img-blog">
+                            <img src="img/blog2.jpg">
+                            <div class="post-author">
+                                <ul>
+                                    <li><i class="icofont-businessman"></i>mark jonson</li>
+                                    <li><i class="icofont-calendar"></i>june 28,2020</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="post-caption">
+                            <h3>strong house project</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <div class="continue_reading">
+                                <a href="#">read more</a>
+                                <div class="read_line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 blog_area">
+                    <div class="blog_area">
+                        <div class="img_line"></div>
+                        <div class="img-blog">
+                            <img src="img/blog3.jpg">
+                            <div class="post-author">
+                                <ul>
+                                    <li><i class="icofont-businessman"></i>mark jonson</li>
+                                    <li><i class="icofont-calendar"></i>june 28,2020</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="post-caption">
+                            <h3>popular design of house</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                            <div class="continue_reading">
+                                <a href="#">read more</a>
+                                <div class="read_line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--blog end-->
+    <!--subscribe-->
+    <div id="subscribe">
+        <div class="container-fluid">
+            <div class="subscribe_bg">
+                <div class="header">
+                    <h2>subscribe <span class="bold">newsletter</span></h2>
+                    <p>consectetur adipisicing elit. Beatae ducimus in enim quae</p>
+                </div>
+                <form class="input-group">
+                    <input type="email" class="form-control" placeholder="Enter Your Email">
+                    <div class="input-group-append">
+                        <span class="input-group-text at-sub-btn"><a href="#" class="hvr-bounce-to-right">subscribe</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--subscribe end-->
+
+    <!--client slider-->
+    <div id="client_slider">
+        <div id="carousel_client" class="carousel slide container" data-ride="carousel">
+            <div class="carousel-inner container">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="img/client1.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client2.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client3.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client1.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client2.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client3.jpg" style="width: 100%; height:auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="img/client1.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client2.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client3.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client1.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client2.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client3.jpg" style="width: 100%; height:auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="img/client1.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client2.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client3.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client1.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client2.jpg" style="width: 100%; height:auto;">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="img/client3.jpg" style="width: 100%; height:auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--client slider end-->
+    <!--footer-->
+    <div id="footer" class="container-fluid">
+        <footer>
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 footer_option">
+                    <h2 class="title">home</h2>
+                    <ul class="sub_title">
+                        <a href="#">
+                            <li>about us</li>
+                        </a>
+                        <a href="#">
+                            <li>our work</li>
+                        </a>
+                        <a href="#">
+                            <li>our location</li>
+                        </a>
+                        <a href="#">
+                            <li>blog</li>
+                        </a>
+                        <a href="#">
+                            <li>our history</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-12 footer_option">
+                    <h2 class="title">services</h2>
+                    <ul class="sub_title">
+                        <a href="#">
+                            <li>advertise</li>
+                        </a>
+                        <a href="#">
+                            <li>recruitment</li>
+                        </a>
+                        <a href="#">
+                            <li>online consultation</li>
+                        </a>
+                        <a href="#">
+                            <li>buying and selling land</li>
+                        </a>
+                        <a href="#">
+                            <li>buying and selling commercial property</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-12 footer_option">
+                    <h2 class="title">Legal</h2>
+                    <ul class="sub_title">
+                        <a href="#">
+                            <li>privacy policy</li>
+                        </a>
+                        <a href="#">
+                            <li>terms & conditions</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-12 footer_option">
+                    <h2 class="title">Contact</h2>
+                    <ul class="sub_title">
+                        <a href="#">
+                            <li>info@yourmail.com</li>
+                        </a>
+                        <a href="#">
+                            <li>agent support</li>
+                        </a>
+                        <ul class="follow_icon">
+                            <div class="icons">
+                                <li><i class="icofont-facebook"></i></li>
+                                <div class="line"></div>
+                            </div>
+                            <div class="icons">
+                                <li><i class="icofont-twitter"></i></li>
+                                <div class="line"></div>
+                            </div>
+                            <div class="icons">
+                                <li><i class="icofont-linkedin"></i></li>
+                                <div class="line"></div>
+                            </div>
+                            <div class="icons">
+                                <li><i class="icofont-dribbble"></i></li>
+                                <div class="line"></div>
+                            </div>
+                            <div class="icons">
+                                <li><i class="icofont-google-plus"></i></li>
+                                <div class="line"></div>
+                            </div>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="warn">
+                <h5>all rights rserved hommy PTE LTD 2019-2020</h5>
+            </div>
+        </footer>
+    </div>
+    <!--footer end-->
+</body>
+
+</html>
+
+</html>

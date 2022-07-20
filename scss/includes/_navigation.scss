@@ -1,0 +1,212 @@
+@import "_functions.scss";
+//first nav
+#first_nav {
+    background-color: $darkblack;
+    z-index: 1000;
+    .communicate {
+        text-align: center;
+        p {
+            color: $white;
+            margin: 0;
+            margin: 10px 0 10px 0 !important;
+            display: inline-block;
+            &:hover {
+                cursor: pointer;
+            }
+            i {
+                color: $darkgold;
+            }
+        }
+    }
+    .contact {
+        text-align: center;
+        ul {
+            li {
+                display: inline-block;
+                margin: 10px 0 10px 0;
+                &:hover {
+                    cursor: pointer;
+                }
+                p {
+                    display: inline-block;
+                    color: $white;
+                    margin: 0;
+                }
+                i {
+                    margin-left: 15px;
+                    color: $darkgold;
+                }
+            }
+        }
+    }
+    .follow {
+        text-align: center;
+        ul {
+            .icons {
+                display: inline-block;
+                &:hover {
+                    .line {
+                        background-color: $darkgold;
+                        width: 15px;
+                    }
+                    li {
+                        i {
+                            color: $darkgold;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .line {
+                    display: inline-block;
+                    width: 10px;
+                    height: 4px;
+                    border-radius: 15px;
+                    background-color: $white;
+                    transition: all 0.25s;
+                }
+                li {
+                    display: inline-block;
+                    margin: 10px 0 10px 0;
+                    i {
+                        margin-left: 7px;
+                        color: $white;
+                        font-size: 18px;
+                        transition: all 0.25s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//first nav end
+//sticky nav bar
+#sticky_nav {
+    position: fixed;
+    background-color: $white;
+    z-index: 1000;
+    top: auto;
+    transition: top 0.3s;
+    -webkit-transition: top 0.3s;
+    -moz-transition: top 0.3s;
+    -ms-transition: top 0.3s;
+    -o-transition: top 0.3s;
+    #logo_section {
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #menue_section {
+        text-align: center;
+        padding-top: 20px;
+        .rsp_menu_icon {
+            display: none;
+            text-align: right;
+            padding-right: 25px;
+            i {
+                font-size: 35px;
+            }
+        }
+        .menue {
+            display: inline-flex;
+            text-transform: uppercase;
+            font-weight: 500;
+            padding-top: 15px;
+            .menue_title {
+                font-size: 14px;
+                margin: 0 10px 0 10px;
+                &:hover {
+                    color: $darkgold;
+                }
+            }
+            .sub_titles {
+                border: 1px solid rgba(168, 168, 168, 0.377);
+                background-color: $white;
+                font-size: 14px;
+                width: 220px;
+                text-align: left;
+                z-index: 1000;
+                position: fixed;
+                display: none;
+                li {
+                    padding: 10px 0 10px 2px;
+                    &:hover {
+                        a {
+                            color: $darkgold;
+                        }
+                        .line {
+                            width: 15px;
+                            background-color: $darkgold;
+                        }
+                    }
+                }
+                hr {
+                    margin: 0;
+                }
+                .line {
+                    width: 10px;
+                    height: 5px;
+                    background-color: #4e4e4e;
+                    display: inline-block;
+                    border-radius: 15px;
+                    transition: all 0.25s;
+                }
+            }
+            a {
+                text-decoration: none;
+                color: #4e4e4e;
+                transition: all 0.25s;
+            }
+        }
+    }
+}
+
+//sticky nav bar end
+//responsive sticky nav bar 
+#rsp_sticky_navbar {
+    text-align: left;
+    z-index: 1000;
+    position: fixed;
+    background: $white;
+    width: 100%;
+    height: 100vh;
+    padding-left: 25px;
+    text-transform: uppercase;
+    font-size: 20px;
+    overflow-y: scroll;
+    display: none;
+    .rsp_menue_area {
+        .close_area {
+            text-align: right;
+            padding-right: 25px;
+            font-weight: bold;
+            #close_btn {
+                width: fit-content;
+                display: inline-block;
+                i {
+                    font-size: 24px;
+                }
+            }
+        }
+        .rsp_menue {
+            hr {
+                margin: 10px 0 10px 0;
+            }
+            .menue_title {
+                i {
+                    font-size: 20px;
+                }
+                &:hover {
+                    color: $darkgold;
+                }
+            }
+            .sub_titles {
+                padding-left: 20px;
+                font-size: 18px;
+                display: none;
+            }
+        }
+    }
+}
+
+//responsive sticky nav bar end
